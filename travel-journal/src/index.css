@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #2B283A;
+  background-color: antiquewhite;
+}
+
+.head-container, section {
+  width: 550px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.head-container {
+  height: 55px;
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+}
+
+.world-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.head-title {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card {
+  display: flex;
+  padding: 40px 40px 0px 40px;
+}
+
+.card-image {
+  width: 125px;
+  height: 168px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.locator-icon {
+  width: 7px;
+  height: 9.545px;
+  margin-right: 5px;
+}
+
+.country {
+  font-size: 10.24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.741px;
+  margin-right: 12px;
+}
+
+.map-link {
+  color: #918E9B;
+  font-size: 10.24px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+.date {
+  font-size: 10.24px;
+  font-weight: 700;
+}
+
+.description {
+  width: 326px;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 150%;
+}
